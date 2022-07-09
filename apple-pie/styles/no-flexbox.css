@@ -1,0 +1,123 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+    margin: 0;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.recipe-header {
+    /* position: absolute; */
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    /* display: flex; */
+
+}
+
+.recipe-header > h1 {
+    margin: auto 0;
+    color: white;
+    font-weight: 100;
+    font-size: 5rem;   
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 40%;
+}
+
+.recipe-description {
+    /* background-color: red; */
+   margin: 60px auto;
+    text-align: center;
+
+}
+
+.recipe-description p {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align: center;
+    position: relative;
+}
+
+.recipe-description img {
+    width: 30%;
+    margin: 60px auto 30px auto;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: justify;
+    display: block;
+}
+
+hr {
+    border-top: 2px solid rgb(126, 126, 126);
+    width: 65%;
+}
+
+.recipe-ingredients h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+
+.recipe-ingredients div {
+    /* background-color: green; */
+    width: 45%;
+    text-align: left;
+    align-items: center;
+    margin: 60px auto 0 auto;
+    
+
+}
+
+.recipe-ingredients img {
+    width: 30%;
+    margin: 30px auto;
+    /* font-weight: 100; */
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: '- ';
+    font-size: 1.2rem;
+}
+
+ol {
+    font-size: 1.2rem;
+    list-style: none;
+    margin-bottom: 100px;
+}
+.recipe-directions h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+
+.recipe-directions div {
+    /* background-color: green; */
+        width: 45%;
+        text-align: left;
+        align-items: center;
+        margin: 60px auto 0 auto;
+
+}
